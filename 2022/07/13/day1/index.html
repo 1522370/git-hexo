@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives: 2022/7 | Hexo</title>
+  <title>day1 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2022/07/index.html">
+  <meta name="description" content="Java概述与环境搭建1. Java语言特点(了解) 面向对象（使用计算机模拟现实世界，解决现实问题，贴近人类思维模式） 简单（相对C、C++，不易造成内存溢出、减少代码量、代码可读性强） 跨平台（操作系统、服务器、数据库）  2. 计算机语言执行机制 编译执行：将源文件编译成机器码，一次编译，多次执行。执行效率高，不可跨平台。 解释执行：将源文件一行一行解释，一行一行执行。不同的操作系统具备不同">
+<meta property="og:type" content="article">
+<meta property="og:title" content="day1">
+<meta property="og:url" content="http://example.com/2022/07/13/day1/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Java概述与环境搭建1. Java语言特点(了解) 面向对象（使用计算机模拟现实世界，解决现实问题，贴近人类思维模式） 简单（相对C、C++，不易造成内存溢出、减少代码量、代码可读性强） 跨平台（操作系统、服务器、数据库）  2. 计算机语言执行机制 编译执行：将源文件编译成机器码，一次编译，多次执行。执行效率高，不可跨平台。 解释执行：将源文件一行一行解释，一行一行执行。不同的操作系统具备不同">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-07-13T12:10:35.000Z">
+<meta property="article:modified_time" content="2022-07-13T12:11:48.673Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -143,97 +147,227 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-day1" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      day1
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2022" class="archive-year">2022</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/07/13/day1/" class="archive-article-date">
+
+        
+        <a href="/2022/07/13/day1/" class="archive-article-date">
   	<time datetime="2022-07-13T12:10:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-07-13</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/07/13/day1/">day1</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Java概述与环境搭建"><a href="#Java概述与环境搭建" class="headerlink" title="Java概述与环境搭建"></a>Java概述与环境搭建</h2><h3 id="1-Java语言特点-了解"><a href="#1-Java语言特点-了解" class="headerlink" title="1. Java语言特点(了解)"></a>1. Java语言特点(了解)</h3><blockquote>
+<p>面向对象（使用计算机模拟现实世界，解决现实问题，贴近人类思维模式）</p>
+<p>简单（相对C、C++，不易造成内存溢出、减少代码量、代码可读性强）</p>
+<p>跨平台（操作系统、服务器、数据库）</p>
+</blockquote>
+<h3 id="2-计算机语言执行机制"><a href="#2-计算机语言执行机制" class="headerlink" title="2. 计算机语言执行机制"></a>2. 计算机语言执行机制</h3><blockquote>
+<p>编译执行：<br>将源文件编译成机器码，一次编译，多次执行。<br>执行效率高，不可跨平台。</p>
+<p>解释执行：<br>将源文件一行一行解释，一行一行执行。不同的操作系统具备不同的解释器。<br>执行效率低，可以跨平台。</p>
+</blockquote>
+<h3 id="3-Java语言执行机制"><a href="#3-Java语言执行机制" class="headerlink" title="3. Java语言执行机制"></a>3. Java语言执行机制</h3><blockquote>
+<p>先编译、再解释：<br>将源文件编译成字节码文件（平台中立文件.class），再将字节码文件进行解释执行。</p>
+<p>Java的设计理念：Write Once Run Anywhere 写一遍 运行在任何地方</p>
+</blockquote>
+<h3 id="4-名词解释"><a href="#4-名词解释" class="headerlink" title="4. 名词解释"></a>4. 名词解释</h3><blockquote>
+<p>JVM（Java Virtual Machine）虚拟机：<br>使用软件在不同操作系统中，模拟相同的环境。</p>
+<p>JRE（Java Runtime Environment）运行环境：<br>包含JVM和解释器，完整的Java运行环境。</p>
+<p>JDK（Java Development Kit）开发环境：<br>包含JRE + 类库 + 开发工具包（编译器+调试工具）。</p>
+</blockquote>
+<h3 id="5-安装JDK"><a href="#5-安装JDK" class="headerlink" title="5. 安装JDK"></a>5. 安装JDK</h3><blockquote>
+<p>双击打开JDK安装程序，所有选项全部下一步即可</p>
+<p>默认安装在C盘 Program files —-&gt; Java文件夹下 <code>C:\Program Files\Java</code></p>
+</blockquote>
+<h3 id="6-配置环境变量"><a href="#6-配置环境变量" class="headerlink" title="6.配置环境变量"></a>6.配置环境变量</h3><blockquote>
+<p>右键此电脑—–&gt;属性——&gt;高级系统设置——–&gt;高级——&gt;环境变量</p>
+<p>系统变量——&gt;Path ——–&gt;编辑——–&gt;新建——-&gt;浏览——-&gt;选择第5步安装JDK路径下jdk1.8.0_131目录下的bin目录即可</p>
+<p>最后所有窗口全部确定</p>
+</blockquote>
+<h3 id="7-测试环境变量"><a href="#7-测试环境变量" class="headerlink" title="7.测试环境变量"></a>7.测试环境变量</h3><blockquote>
+<p>徽标+R 呼出运行窗口——-&gt;cmd </p>
+<p>java -version </p>
+<p>javac -version</p>
+<p>以上两个命令都出现版本号则表示配置环境变量成功</p>
+</blockquote>
+<h3 id="8-配置环境变量注意事项"><a href="#8-配置环境变量注意事项" class="headerlink" title="8. 配置环境变量注意事项"></a>8. 配置环境变量注意事项</h3><blockquote>
+<p>1.不要配置classpath 因为从JDK1.5就不需要认为的配置classpath了 </p>
+<p>2.可以不需要配置JAVA_HOME  因为配置JAVA_HOME最终选择的路径是一样的</p>
+<p>java 执行命令</p>
+<p>javac 编译命令</p>
+<p>bin目录 ：bin binary  二进制  此目录下存放的全部是可执行的二进制文件 </p>
+<p>配置bin’目录表示告诉操作系统可以去此目录下查找我们输入的命令 </p>
+<p>如果不配置则提示 不是内部或者外部命令</p>
+</blockquote>
+<h3 id="9-第一个Java程序"><a href="#9-第一个Java程序" class="headerlink" title="9.第一个Java程序"></a>9.第一个Java程序</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span>&#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String [] args)</span>&#123;</span><br><span class="line">		System.out.print(<span class="string">&quot;hello world&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
-          
+<h3 id="10-单词解释"><a href="#10-单词解释" class="headerlink" title="10.单词解释"></a>10.单词解释</h3><blockquote>
+<p>public:公开</p>
+<p>class：类</p>
+<p>static：静态</p>
+<p>void：空的 无效的</p>
+<p>main：主要的</p>
+<p>String：字符串</p>
+<p>System:系统</p>
+<p>out：出</p>
+<p>print：打印</p>
+<p>args-arguments :参数 复数</p>
+</blockquote>
+<h3 id="11-注意事项"><a href="#11-注意事项" class="headerlink" title="11.注意事项"></a>11.注意事项</h3><blockquote>
+<p>1.严格区分大小写</p>
+<p>2.大括号&#x2F;小括号成对出现</p>
+<p>3.一行只写一句代码</p>
+<p>4.标点符号默认都是英文</p>
+<p>5.类名首字母大写 不要使用拼音  更不要使用中文 特殊符号</p>
+</blockquote>
+<h3 id="12-类的阐述"><a href="#12-类的阐述" class="headerlink" title="12.类的阐述"></a>12.类的阐述</h3><blockquote>
+<p>同一个源文件中可以定义多个类。</p>
+<p>编译后，每个类都会生成独立的 .class文件。</p>
+<p>一个类中，只能有一个main方法，每个类都可以有自己的main方法</p>
+<p>public修饰的类称为公开类，要求类名必须与文件名称完全相同，包括大小写。</p>
+<p>一个源文件中，只能有一个公开类。</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test1</span>&#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String [] args)</span>&#123;</span><br><span class="line">		System.out.print(<span class="string">&quot;Test1 class print&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">A</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/07/13/day1/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/07/13/01%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/" class="archive-article-date">
-  	<time datetime="2022-07-13T11:48:38.617Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-07-13</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/07/11/hello-world/" class="archive-article-date">
-  	<time datetime="2022-07-11T12:51:39.439Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-07-11</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/07/11/hello-world/">Hello World</a>
-    </h1>
+  
+    <a href="/2022/07/13/01%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -256,8 +390,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
